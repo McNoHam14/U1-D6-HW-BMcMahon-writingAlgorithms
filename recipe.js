@@ -1,14 +1,13 @@
 let spag = 400;
 let guan = 250;
-let egg = 6 * 50;
+let egg = 6 * 20;
 let peco = 50;
 let bpepp = 4;
 
+// add water weight
 
 let ingredients = spag + guan + egg + peco + bpepp;
  
-
-
 
 let dish = null;
 let store = null;
@@ -23,8 +22,8 @@ console.log("Spaghetti alla Carbonara Recipe:\n");
 console.log("Ingedients for 4 people\n");
 console.log("spaghetti 400g\n")
 console.log("guanciale 250g\n")
-console.log("very fresh egg yolks 6 (50g each)\n")
-console.log("aged grated Pecorino Romano cheese 50\n")
+console.log("very fresh egg yolks 6 (20g each)\n")
+console.log("aged grated Pecorino Romano cheese 50g\n")
 console.log("raw black pepper 4g\n")
 
 console.log("\nTotal Ingredients Weight:", ingredients);
@@ -68,10 +67,11 @@ console.log(cook);
 console.log(store);
 
 
-// cook pasta w pinch o salt
+// cook pasta w pinch o salt & add water to cooked pasta weight
 console.log ("\nCook the pasta with a pinch of salt in the water (guanciale is already very salty)\n");
-cook += + spag;
+cook += + spag *2;
 console.log (cook);
+// add salt weight 0.36g
 
 
 
