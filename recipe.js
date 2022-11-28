@@ -123,7 +123,7 @@ aside = null;
 
 carbonara = + cook;
 cook = null;
-console.log("\nHere is the value of the Carbonara:", carbonara);
+console.log("\nHere is the total value weight of the Carbonara:", carbonara);
 
 console.log("\nContainer remainders:\n")
 console.log(dish);
